@@ -285,7 +285,7 @@ class LineDrawerApp:
         if intensity1 > 0:
             points.append((x_pixel_start, y_pixel_start, intensity1))
         if intensity2 > 0:
-            points.append((x_pixel_start, y_pixel_start + 1, intensity2))
+            points.append((x_pixel_start,    + 1, intensity2))
 
         intery = y_end + gradient
 
